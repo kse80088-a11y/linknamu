@@ -11,11 +11,10 @@ export type ProfileData = {
   links: LinkItem[];
 };
 
-// TODO: 더미 값 — 실제 이름·소개·사진으로 교체
 export const profile: ProfileData = {
-  name: "김클로",
-  bio: "세계 최강 바이브코더",
-  imageUrl: "/profile.svg",
+  name: "김개발",
+  bio: "풀스택 개발자 | 요즘에는 AI 개발에 관심이 많아요",
+  imageUrl: "https://placehold.co/112x112/orange/white",
   // TODO: 더미 값 — 실제 링크로 교체
   links: [
     { id: "github", title: "GitHub", url: "https://github.com/your-id" },
